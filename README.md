@@ -53,8 +53,11 @@ Examples:
 Contributions to this project are welcome! If you find a bug or have a feature suggestion, feel free to open an issue or submit a pull request.
 
 -Fork the repository.
+
 -Create a new branch for your feature or bug fix.
+
 -Commit your changes and push the branch.
+
 -Open a pull request against the main branch of this repository.
 
 
