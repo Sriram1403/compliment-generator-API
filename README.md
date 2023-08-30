@@ -29,19 +29,19 @@ The Compliment Generator API is a simple web service that provides users with pe
 
 Access the API using your preferred tool (e.g., Rest, Postman) or a browser.
 
-Use the provided endpoints to generate personalized compliments based on different themes and languages.
+Use the provided endpoints to generate personalized compliments based on different themes.
 
 ## Endpoints
 
 Generate a Compliment
-Generates a personalized compliment with the specified theme and language.
+
+Generates a personalized compliment with the specified theme.
 
 URL: /compliment
 
 Method: GET
 
 Query Parameters:
-
       theme (optional): Choose from empowerment, creativity, positivity. Default: positivity.
       name (optional): User's name. Default: Friend.
       
@@ -49,17 +49,17 @@ Examples:
 
 -Generate a compliment with the default settings:
 
-  http://localhost:3000/compliment
+     http://localhost:3000/compliment
 
 -Generate a compliment with the theme of empowerment:
 
-  http://localhost:3000/compliment?theme=empowerment
+     http://localhost:3000/compliment?theme=empowerment
   
 -Generate a personalized compliment for Sriram:
 
-   http://localhost:3000/compliment?name=Sriram
+      http://localhost:3000/compliment?name=Sriram
    
-   http://localhost:3000/compliment?name=Sriram&theme=empowerment
+      http://localhost:3000/compliment?name=Sriram&theme=empowerment
 
 ## Contributing
 
