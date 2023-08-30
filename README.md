@@ -42,8 +42,10 @@ URL: /compliment
 Method: GET
 
 Query Parameters:
-      theme (optional): Choose from empowerment, creativity, positivity. Default: positivity.
-      name (optional): User's name. Default: Friend.
+      -theme (optional): Choose from empowerment, creativity, positivity. 
+      -Default: positivity.
+      -name (optional): User's name. 
+      -Default: Friend.
       
 Examples:
 
