@@ -37,14 +37,14 @@ Generates a personalized compliment with the specified theme and language.
 URL: /compliment
 Method: GET
 Query Parameters:
-theme (optional): Choose from empowerment, creativity, positivity. Default: positivity.
-name (optional): User's name. Default: Friend.
+      theme (optional): Choose from empowerment, creativity, positivity. Default: positivity.
+      name (optional): User's name. Default: Friend.
 Examples:
-Generate a compliment with the default settings:
+-Generate a compliment with the default settings:
   http://localhost:3000/compliment
-Generate a compliment with the theme of empowerment:
+-Generate a compliment with the theme of empowerment:
   http://localhost:3000/compliment?theme=empowerment
-Generate a personalized compliment for Sriram:
+-Generate a personalized compliment for Sriram:
    http://localhost:3000/compliment?name=Sriram
    http://localhost:3000/compliment?name=Sriram&theme=empowerment
 
@@ -52,9 +52,9 @@ Generate a personalized compliment for Sriram:
 
 Contributions to this project are welcome! If you find a bug or have a feature suggestion, feel free to open an issue or submit a pull request.
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Commit your changes and push the branch.
-Open a pull request against the main branch of this repository.
+-Fork the repository.
+-Create a new branch for your feature or bug fix.
+-Commit your changes and push the branch.
+-Open a pull request against the main branch of this repository.
 
 
