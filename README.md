@@ -19,8 +19,10 @@ The Compliment Generator API is a simple web service that provides users with pe
    cd compliment-generator-api
 
 2. Install the required dependencies using npm:
+    ```bash
      npm install
-3. Start the server:
+4. Start the server:
+   ```bash
      node app.js
 
 ## Usage
@@ -35,17 +37,28 @@ Generate a Compliment
 Generates a personalized compliment with the specified theme and language.
 
 URL: /compliment
+
 Method: GET
+
 Query Parameters:
+
       theme (optional): Choose from empowerment, creativity, positivity. Default: positivity.
       name (optional): User's name. Default: Friend.
+      
 Examples:
+
 -Generate a compliment with the default settings:
+
   http://localhost:3000/compliment
+
 -Generate a compliment with the theme of empowerment:
+
   http://localhost:3000/compliment?theme=empowerment
+  
 -Generate a personalized compliment for Sriram:
+
    http://localhost:3000/compliment?name=Sriram
+   
    http://localhost:3000/compliment?name=Sriram&theme=empowerment
 
 ## Contributing
