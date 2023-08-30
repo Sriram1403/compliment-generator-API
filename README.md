@@ -8,7 +8,7 @@ The Compliment Generator API is a simple web service that provides users with pe
 - [Usage](#usage)
 - [Endpoints](#endpoints)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Installation
 
@@ -23,12 +23,14 @@ The Compliment Generator API is a simple web service that provides users with pe
 3. Start the server:
      node app.js
 
-##Usage
+## Usage
+
 Access the API using your preferred tool (e.g., Rest, Postman) or a browser.
 
 Use the provided endpoints to generate personalized compliments based on different themes and languages.
 
-##Endpoints
+## Endpoints
+
 Generate a Compliment
 Generates a personalized compliment with the specified theme and language.
 
@@ -46,7 +48,8 @@ Generate a personalized compliment for Sriram:
    http://localhost:3000/compliment?name=Sriram
    http://localhost:3000/compliment?name=Sriram&theme=empowerment
 
-##Contributing
+## Contributing
+
 Contributions to this project are welcome! If you find a bug or have a feature suggestion, feel free to open an issue or submit a pull request.
 
 Fork the repository.
