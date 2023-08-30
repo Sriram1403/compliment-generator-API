@@ -1,0 +1,3 @@
+GET  http://localhost:3000/compliment?name=sri&theme=empowerment&language=fr
+
+
